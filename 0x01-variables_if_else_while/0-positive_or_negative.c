@@ -6,7 +6,11 @@
 
 /* more headers goes there */
 
-/* This program inputs a random integer, then checks if it is positive, negative or zero */
+/**
+ * main -Entry point
+ *
+ * Return: Always 0 (Success)
+  */
 
 int main(void)
 
