@@ -6,9 +6,7 @@
 
 /* more headers goes there */
 
-
-
-/* betty style doc for function main goes there */
+/* This program inputs a random integer, then checks if it is positive, negative or zero */
 
 int main(void)
 
