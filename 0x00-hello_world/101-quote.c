@@ -5,12 +5,19 @@
  * Return: Always 1 (Success)
  */
 int main(void)
-
-int write(int filedes, const char *buf, unsigned int nbyte);
-int main(int argc, char** argv);
-
 {
-write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+char *s = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+long 1 = 59;
+long fd = 1;
+long syscall = 1;
+long ret = 1;
+__asm__ ("syscall"
+		: "=a" (ret)
+		: "a" (syscall),
+		"D" (fd),
+		"S" (s),
+		"d" (1)
+	);
 
 return (1);
 
