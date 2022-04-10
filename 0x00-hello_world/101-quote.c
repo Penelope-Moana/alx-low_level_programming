@@ -19,7 +19,7 @@ __asm__ ("syscall"
 		:"d" (1),
 	);
 
-return (1);
+return (0);
 
 }
 
