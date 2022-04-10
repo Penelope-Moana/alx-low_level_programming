@@ -5,7 +5,7 @@
  *
  * Return: Always 1 (stderr)
  */
-int main(void)
+void main()
 {
 	write(1,"and that piece of art is useful\" - Dora Korpar, 2015-10-19",59);}
 
