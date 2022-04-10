@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 1 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -12,11 +12,11 @@ long fd = 1;
 long syscall = 1;
 long ret = 1;
 __asm__ ("syscall"
-		: "=a" (ret)
+		: "=a" (ret),
 		: "a" (syscall),
-		"D" (fd),
-		"S" (s),
-		"d" (1)
+		:"D" (fd),
+		:"S" (s),
+		:"d" (1),
 	);
 
 return (1);
