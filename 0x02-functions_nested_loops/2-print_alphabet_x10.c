@@ -1,19 +1,31 @@
 #include "main.h"
 
 /**
- * print_alphabet - print alphabet
+ * print_alphabet_x10 - print alphabet 10 times
  *
- * Return: Always 0 (Success)
+ * Return: void
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
+	int round = 0;
 	char letter = 'a';
-	
-	while (letter <= 'z')
+
+	while (round < 10)
 	{
-		_putchar(letter);
-		letter++;
+		letter = 'a';
+
+		while (round < 10)
+		{
+			letter = 'a';
+			while (letter <= 'z')
+			{
+				_putchar(letter);
+				letter++;
+			}
+			_putchar('\n');
+
+			round++;
+		}
 	}
-	_putchar('\n');
 }
