@@ -1,14 +1,13 @@
 #include "main.h"
-
 /**
- *jack bauer - prints every minute of the day
+ * jack_bauer - prints every minute of the day
  *
- *Description jack bauer: prints every minute of the day
+ * Description: prints every minute of the day
  *
- *Return: void
+ * Return: void
  */
 
-void jack_bauer(void)
+ void jack_bauer(void)
 {
 	int hours_tens, hours_ones, minutes_tens, minutes_ones, hours_max;
 
