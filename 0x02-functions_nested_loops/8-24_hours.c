@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * Description jack bauer - prints every minute of the day
+ * jack bauer - prints every minute of the day
  *
- * Description: prints every minute of the day
+ * Description jack bauer: prints every minute of the day
  *
  * Return: void
  */
