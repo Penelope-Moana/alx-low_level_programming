@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rot 13 - encodes strings using rot 13.
+ * *rot 13 - encodes strings using rot 13.
  * @s: pointer to string.
  *
  * Return: pointer to encoded string.
